@@ -2,9 +2,8 @@
 
 ![Hero](https://media3.giphy.com/media/fRg1cJrI9Sfb7Z1MS3/giphy.gif?cid=6c09b952do3wm7q5vj35l6fn516h70wue0f7fmep6ky9z4hz&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g)
 
-> 🚀 *Crafted for the WebWeave UI/UX Track – Hackathon 2024*  
+> 🚀 *Crafted for the WebWeave UI/UX Track – Innovatex 2025*  
 > 🎯 *Challenge: Build futuristic UI to solve real-world problems using creativity, design principles, and interactivity*  
-> 👨‍🎨 Designer & Developer: **Hanish**
 
 ---
 
