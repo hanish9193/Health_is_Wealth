@@ -34,10 +34,6 @@
 
 Health is Wealth revolutionizes healthcare access by combining AI-powered symptom analysis with seamless doctor consultations. Our platform bridges the gap between patients seeking immediate health insights and medical professionals providing expert care.
 
-<p align="center">
-<img src="https://via.placeholder.com/600x350/2196F3/FFFFFF/?text=AI+%2B+Telehealth" alt="AI + Telehealth" width="60%">
-</p>
-
 ## ✨ Key Features
 ![telecommunication home](Screenshot%202025-05-02%20213028.png)
 
