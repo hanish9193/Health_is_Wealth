@@ -151,9 +151,7 @@ Health is Wealth revolutionizes healthcare access by combining AI-powered sympto
 
 ## 🏗️ Architecture
 
-<div align="center">
-  <img src="https://via.placeholder.com/900x500/00BCD4/FFFFFF/?text=System+Architecture" alt="System Architecture" width="80%">
-</div>
+![Archotecture](hiiii.png)
 
 ### System Components
 
