@@ -2,7 +2,8 @@
 
 <div align="center">
 
-![Health is Wealth Banner](https://via.placeholder.com/1200x300/4CAF50/FFFFFF/?text=Health+is+Wealth)
+
+![Health is Wealth Banner](Screenshot%202025-05-02%20212515.png)
 
 [![GitHub stars](https://img.shields.io/github/stars/username/health-is-wealth?style=social)](https://github.com/username/health-is-wealth/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/username/health-is-wealth?style=social)](https://github.com/username/health-is-wealth/network/members)
@@ -22,7 +23,10 @@
   <a href="#license">License</a>
 </p>
 
-<img src="https://via.placeholder.com/800x450/4CAF50/FFFFFF/?text=Platform+Preview" alt="Health is Wealth Platform Preview" width="70%">
+![hiw home page](Screenshot%202025-05-02%20212521.png)
+![ai symptom](Screenshot%202025-05-02%20212527.png)
+![appointment](Screenshot%202025-05-02%20212536.png)
+
 
 </div>
 
@@ -35,6 +39,7 @@ Health is Wealth revolutionizes healthcare access by combining AI-powered sympto
 </p>
 
 ## ✨ Key Features
+![telecommunication home](Screenshot%202025-05-02%20213028.png)
 
 <table>
   <tr>
@@ -47,7 +52,6 @@ Health is Wealth revolutionizes healthcare access by combining AI-powered sympto
         <li>Specialist recommendation based on symptom patterns</li>
         <li>Privacy-first approach to sensitive health data</li>
       </ul>
-      <img src="https://via.placeholder.com/500x300/673AB7/FFFFFF/?text=AI+Symptom+Analysis" width="100%">
     </td>
     <td width="50%">
       <h3>👨‍⚕️ Telehealth Consultation</h3>
@@ -62,14 +66,6 @@ Health is Wealth revolutionizes healthcare access by combining AI-powered sympto
     </td>
   </tr>
 </table>
-
-## 🎬 Demo
-
-<div align="center">
-  <img src="https://via.placeholder.com/800x450/E91E63/FFFFFF/?text=Live+Demo+GIF" alt="Live Demo" width="70%">
-</div>
-
-Check out our [live demo](https://healthiswealth-demo.com) to experience the platform firsthand!
 
 ## 🛠️ Technology Stack
 
@@ -187,10 +183,6 @@ Check out our [live demo](https://healthiswealth-demo.com) to experience the pla
 
 ## 📊 User Flow
 
-<div align="center">
-  <img src="https://via.placeholder.com/900x500/FFC107/FFFFFF/?text=User+Journey+Diagram" alt="User Journey" width="80%">
-</div>
-
 1. **Symptom Analysis**
    - User enters health symptoms in natural language
    - AI processes and analyzes the input
@@ -203,21 +195,6 @@ Check out our [live demo](https://healthiswealth-demo.com) to experience the pla
    - Doctor receives and confirms appointment
    - Secure video consultation takes place on platform
    - Follow-up appointment scheduling if needed
-
-## 🚀 Roadmap
-
-<div align="center">
-  <img src="https://via.placeholder.com/800x400/3F51B5/FFFFFF/?text=Development+Roadmap" alt="Development Roadmap" width="70%">
-</div>
-
-| Timeline | Feature | Status |
-|----------|---------|--------|
-| Q2 2025 | Mobile application (iOS & Android) | 🔄 Planning |
-| Q3 2025 | Electronic Health Records (EHR) integration | 🔄 Planning |
-| Q3 2025 | Expanded specialist network | 🔄 Planning |
-| Q4 2025 | AI-powered health monitoring | 🔄 Planning |
-| Q1 2026 | Prescription management system | 🔄 Planning |
-| Q2 2026 | International market expansion | 🔄 Planning |
 
 ## ⚠️ Current Limitations
 
@@ -252,10 +229,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌍 Impact
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400/009688/FFFFFF/?text=Global+Healthcare+Impact" alt="Global Healthcare Impact" width="70%">
-</div>
-
 Health is Wealth aims to transform healthcare accessibility by:
 
 - Reducing barriers to medical consultation
@@ -277,5 +250,5 @@ Health is Wealth aims to transform healthcare accessibility by:
 <div align="center">
   <img src="https://via.placeholder.com/150/4CAF50/FFFFFF/?text=H%2BW" alt="Health is Wealth Icon" width="80px">
   <p><b>Health is Wealth</b> - Revolutionizing healthcare through technology</p>
-  <p>Made with ❤️ by <a href="https://github.com/hanish">Hanish</a> and <a href="https://github.com/shashank">Shashank</a></p>
+  <p>Made with ❤️ by <a href="https://github.com/hanish9193">Hanish</a> and <a href="https://github.com/shashankAcharya3">Shashank</a></p>
 </div>
