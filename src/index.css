@@ -1,0 +1,171 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 25% 98%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 252 87% 67%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 5.9% 10%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 252 87% 67%;
+    --primary-foreground: 240 5.9% 10%;
+
+    --secondary: 0 0% 98%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    background: linear-gradient(120deg, #E5DEFF, #D3E4FD, #FFDEE2);
+    background-size: 400% 400%;
+    animation: gradient-background 15s ease infinite;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-lg;
+  }
+
+  .glass-navbar {
+    @apply glass sticky top-0 z-50 border-b border-white/20;
+  }
+  
+  .glass-card {
+    @apply glass p-6 transition-all duration-300 hover:bg-white/20;
+  }
+  
+  .nav-link {
+    @apply relative px-3 py-2 text-sm font-medium text-foreground transition-colors hover:text-primary overflow-hidden;
+  }
+  
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-health-primary to-health-secondary transition-all duration-300;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+  
+  .gradient-button {
+    @apply bg-gradient-to-r from-health-primary to-health-secondary text-white font-medium py-2.5 px-6 rounded-full transition-all duration-300 hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-health-primary/50;
+  }
+  
+  .subtle-button {
+    @apply bg-white/20 backdrop-blur-sm border border-white/20 text-foreground font-medium py-2.5 px-6 rounded-full transition-all duration-300 hover:bg-white/30 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-health-primary/50;
+  }
+  
+  .symptom-tag {
+    @apply bg-white/30 text-sm text-foreground rounded-full px-4 py-1.5 m-1 cursor-pointer transition-all duration-200 hover:bg-health-primary hover:text-white;
+  }
+  
+  .input-glass {
+    @apply glass bg-white/5 border border-white/20 rounded-full px-5 py-3 focus:outline-none focus:ring-2 focus:ring-health-primary/50 placeholder:text-gray-500;
+  }
+}
+
+@keyframes gradient-background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Additional enhanced animations */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, transparent 25%, rgba(255,255,255,0.3) 50%, transparent 75%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+.animate-in {
+  animation: fade-slide-up 0.6s ease forwards;
+}
+
+@keyframes fade-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
